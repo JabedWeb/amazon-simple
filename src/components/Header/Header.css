@@ -1,0 +1,20 @@
+
+
+.header {
+    background-color: #1C2B35;
+    min-height: 40px;
+    padding: 0px 40px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header a{
+    color: #fff;
+    margin-right: 20px;
+}
+
+.header a:hover{
+    color: #FF9900;
+}
