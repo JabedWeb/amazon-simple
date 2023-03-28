@@ -28,3 +28,8 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+
+.product button:hover{
+    background-color: #000000;
+}
