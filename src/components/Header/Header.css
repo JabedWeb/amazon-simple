@@ -18,3 +18,8 @@
 .header a:hover{
     color: #FF9900;
 }
+
+
+.elementor-accordion-item:has(.elementor-active) {
+    background-color: yellow;
+  }
