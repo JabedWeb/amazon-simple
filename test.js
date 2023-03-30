@@ -1,19 +1,13 @@
-const accordionItems = document.querySelectorAll('.elementor-accordion-item');
+//How can you pass a boolean value (true) as the prop named hero?
 
-accordionItems.forEach(item => {
-  const isActive = item.querySelector('.elementor-active');
-  try {
-    item.classList.add('accordion_active_item');
-    if (isActive) {
-      item.style.cssText = 'border: 1px solid #0000FF !important;';
-      // add class to the item
-        item.classList.add('accordion_active_item');
-    } else {
-      item.style.cssText = 'border: 1px solid red;';
-    }
+//which one is correct?
+//a <Greeting hero={true} />
+//b <Greeting hero={1} />
+//c <Greeting hero="true" />
+//d <Greeting hero="1" />
 
-  } catch (error) {
-    console.log(error)
-  }
+//Answer: a
 
-});
+const obj = {name :'jack',age:27}
+const a= 'name' in obj;
+console.log(a)
